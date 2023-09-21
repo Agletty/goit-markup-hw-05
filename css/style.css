@@ -729,19 +729,18 @@ img {
 
 .modal-checkbox-item {
   color: #4d5ae5;
-  /* font-family: Roboto;
-  font-size: 12px;
+  /* font-size: 12px;
   font-weight: 400;
   line-height: 16px;
-  letter-spacing: 0.48px;
-  text-decoration-line: underline; */
+  letter-spacing: 0.48px; */
+  text-decoration-line: underline;
 }
-.modal-checkbox-icon {
+/* .modal-checkbox-icon {
   stroke-width: 1px;
   stroke: rgba(46, 47, 66, 0.4);
-  /* opacity: 0; */
-}
-.modal-checkbox-input:checked + .modal-checkbox-check .modal-checkbox-icon {
+  /* opacity: 0;
+}  */
+.modal-checkbox-input:checked + .modal-checkbox-check {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
