@@ -493,6 +493,8 @@ img {
   display: flex;
   gap: 24px;
 }
+.footer-modal-label {
+}
 
 .footer-modal-input {
   color: #fff;
@@ -505,7 +507,7 @@ img {
   font-family: Roboto;
   font-size: 12px;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
@@ -727,14 +729,6 @@ img {
   margin-bottom: 24px;
 }
 
-.modal-checkbox-item {
-  color: #4d5ae5;
-  /* font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0.48px; */
-  text-decoration-line: underline;
-}
 /* .modal-checkbox-icon {
   stroke-width: 1px;
   stroke: rgba(46, 47, 66, 0.4);
@@ -745,4 +739,12 @@ img {
   border: none;
   fill: #f4f4fd;
   /* opacity: 1; */
+}
+.modal-checkbox-item {
+  color: #4d5ae5;
+  /* font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.48px; */
+  text-decoration-line: underline;
 }
